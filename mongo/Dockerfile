@@ -1,0 +1,5 @@
+#指定基础镜像
+FROM mongo:3.2
+
+#维护者信息
+MAINTAINER renyimin "18625036504@163.com"

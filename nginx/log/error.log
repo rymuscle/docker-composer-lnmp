@@ -1,0 +1,1 @@
+2018/03/04 09:23:58 [error] 5#5: *4 open() "/www/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.laravel.com:8090", referrer: "http://www.laravel.com:8090/"

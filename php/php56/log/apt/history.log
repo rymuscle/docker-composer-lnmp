@@ -1,0 +1,25 @@
+
+Start-Date: 2018-02-17  00:14:09
+Commandline: apt-get install -y autoconf dpkg-dev file g++ gcc libc-dev make pkg-config re2c ca-certificates curl xz-utils --no-install-recommends
+Install: libisl10:amd64 (0.12.2-2, automatic), libtimedate-perl:amd64 (2.3000-2, automatic), libasan1:amd64 (4.9.2-10, automatic), libsasl2-modules-db:amd64 (2.1.26.dfsg1-13+deb8u1, automatic), libquadmath0:amd64 (4.9.2-10, automatic), libmpc3:amd64 (1.0.2-1, automatic), perl:amd64 (5.20.2-3+deb8u9, automatic), make:amd64 (4.0-8.1), libssl1.0.0:amd64 (1.0.1t-1+deb8u7, automatic), libubsan0:amd64 (4.9.2-10, automatic), m4:amd64 (1.4.17-4, automatic), libgnutls-deb0-28:amd64 (3.3.8-6+deb8u7, automatic), libgssapi-krb5-2:amd64 (1.12.1+dfsg-19+deb8u4, automatic), cpp-4.9:amd64 (4.9.2-10, automatic), libstdc++-4.9-dev:amd64 (4.9.2-10, automatic), libgomp1:amd64 (4.9.2-10, automatic), libkrb5-3:amd64 (1.12.1+dfsg-19+deb8u4, automatic), libtsan0:amd64 (4.9.2-10, automatic), dpkg-dev:amd64 (1.17.27), libcilkrts5:amd64 (4.9.2-10, automatic), libc-dev-bin:amd64 (2.19-18+deb8u10, automatic), file:amd64 (5.22+15-2+deb8u3), libmagic1:amd64 (5.22+15-2+deb8u3, automatic), libglib2.0-0:amd64 (2.42.1-1+b1, automatic), xz-utils:amd64 (5.1.1alpha+20120614-2+b3), libidn11:amd64 (1.29-1+deb8u2, automatic), curl:amd64 (7.38.0-4+deb8u9), patch:amd64 (2.7.5-1, automatic), librtmp1:amd64 (2.4+20150115.gita107cef-1+deb8u1, automatic), g++:amd64 (4.9.2-2), libatomic1:amd64 (4.9.2-10, automatic), libldap-2.4-2:amd64 (2.4.40+dfsg-1+deb8u3, automatic), libmpfr4:amd64 (3.1.2-2, automatic), libssh2-1:amd64 (1.4.3-4.1+deb8u1, automatic), g++-4.9:amd64 (4.9.2-10, automatic), bzip2:amd64 (1.0.6-7+b3, automatic), binutils:amd64 (2.25-5+deb8u1, automatic), gcc:amd64 (4.9.2-2), perl-modules:amd64 (5.20.2-3+deb8u9, automatic), re2c:amd64 (0.13.5-1), libgmp10:amd64 (6.0.0+dfsg-6, automatic), libgdbm3:amd64 (1.8.3-13.1, automatic), libhogweed2:amd64 (2.7.1-5+deb8u2, automatic), libdpkg-perl:amd64 (1.17.27, automatic), cpp:amd64 (4.9.2-2, automatic), gcc-4.9:amd64 (4.9.2-10, automatic), libp11-kit0:amd64 (0.20.7-1, automatic), ca-certificates:amd64 (20141019+deb8u3), libsigsegv2:amd64 (2.10-4+b1, automatic), libcloog-isl4:amd64 (0.18.2-1+b2, automatic), autoconf:amd64 (2.69-8), libcurl3:amd64 (7.38.0-4+deb8u9, automatic), libnettle4:amd64 (2.7.1-5+deb8u2, automatic), libgcc-4.9-dev:amd64 (4.9.2-10, automatic), libsasl2-2:amd64 (2.1.26.dfsg1-13+deb8u1, automatic), openssl:amd64 (1.0.1t-1+deb8u7, automatic), linux-libc-dev:amd64 (3.16.51-3+deb8u1, automatic), liblsan0:amd64 (4.9.2-10, automatic), libtasn1-6:amd64 (4.2-3+deb8u3, automatic), libkeyutils1:amd64 (1.5.9-5+b1, automatic), libitm1:amd64 (4.9.2-10, automatic), libkrb5support0:amd64 (1.12.1+dfsg-19+deb8u4, automatic), libk5crypto3:amd64 (1.12.1+dfsg-19+deb8u4, automatic), libc6-dev:amd64 (2.19-18+deb8u10), pkg-config:amd64 (0.28-1), libffi6:amd64 (3.1-2+deb8u1, automatic)
+End-Date: 2018-02-17  00:14:21
+
+Start-Date: 2018-02-17  02:57:22
+Commandline: apt-get install -y --no-install-recommends wget
+Install: libicu52:amd64 (52.1-8+deb8u6, automatic), libpsl0:amd64 (0.5.1-1, automatic), wget:amd64 (1.16-1+deb8u4)
+End-Date: 2018-02-17  02:57:23
+
+Start-Date: 2018-02-17  02:57:29
+Commandline: apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false wget
+Purge: libicu52:amd64 (52.1-8+deb8u6), libpsl0:amd64 (0.5.1-1), wget:amd64 (1.16-1+deb8u4)
+End-Date: 2018-02-17  02:57:29
+
+Start-Date: 2018-02-17  02:57:40
+Commandline: apt-get install -y --no-install-recommends libcurl4-openssl-dev libedit-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev
+Install: libedit2:amd64 (3.1-20140620-2, automatic), libsqlite3-dev:amd64 (3.8.7.1-1+deb8u2), zlib1g-dev:amd64 (1.2.8.dfsg-2+b1), libedit-dev:amd64 (3.1-20140620-2), libtinfo-dev:amd64 (5.9+20140913-1+deb8u2, automatic), libbsd-dev:amd64 (0.7.0-2, automatic), libsqlite3-0:amd64 (3.8.7.1-1+deb8u2, automatic), libxml2:amd64 (2.9.1+dfsg1-5+deb8u6, automatic), libxml2-dev:amd64 (2.9.1+dfsg1-5+deb8u6), libssl-dev:amd64 (1.0.1t-1+deb8u7), libbsd0:amd64 (0.7.0-2, automatic), libcurl4-openssl-dev:amd64 (7.38.0-4+deb8u9)
+End-Date: 2018-02-17  02:57:42
+
+Start-Date: 2018-02-17  03:01:22
+Commandline: apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false
+Purge: libsqlite3-dev:amd64 (3.8.7.1-1+deb8u2), zlib1g-dev:amd64 (1.2.8.dfsg-2+b1), libedit-dev:amd64 (3.1-20140620-2), libtinfo-dev:amd64 (5.9+20140913-1+deb8u2), libbsd-dev:amd64 (0.7.0-2), libsqlite3-0:amd64 (3.8.7.1-1+deb8u2), libxml2-dev:amd64 (2.9.1+dfsg1-5+deb8u6), libssl-dev:amd64 (1.0.1t-1+deb8u7), libcurl4-openssl-dev:amd64 (7.38.0-4+deb8u9)
+End-Date: 2018-02-17  03:01:23

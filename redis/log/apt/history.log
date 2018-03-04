@@ -1,0 +1,20 @@
+
+Start-Date: 2018-02-15  07:50:46
+Commandline: apt-get install -y --no-install-recommends ca-certificates wget
+Install: libssl1.0.0:amd64 (1.0.1t-1+deb8u7, automatic), libgnutls-deb0-28:amd64 (3.3.8-6+deb8u7, automatic), libicu52:amd64 (52.1-8+deb8u6, automatic), libpsl0:amd64 (0.5.1-1, automatic), libidn11:amd64 (1.29-1+deb8u2, automatic), libgmp10:amd64 (6.0.0+dfsg-6, automatic), wget:amd64 (1.16-1+deb8u4), libhogweed2:amd64 (2.7.1-5+deb8u2, automatic), libp11-kit0:amd64 (0.20.7-1, automatic), ca-certificates:amd64 (20141019+deb8u3), libnettle4:amd64 (2.7.1-5+deb8u2, automatic), openssl:amd64 (1.0.1t-1+deb8u7, automatic), libtasn1-6:amd64 (4.2-3+deb8u3, automatic), libffi6:amd64 (3.1-2+deb8u1, automatic)
+End-Date: 2018-02-15  07:50:53
+
+Start-Date: 2018-02-15  07:50:57
+Commandline: apt-get purge -y --auto-remove ca-certificates wget
+Purge: libssl1.0.0:amd64 (1.0.1t-1+deb8u7), libgnutls-deb0-28:amd64 (3.3.8-6+deb8u7), libicu52:amd64 (52.1-8+deb8u6), libpsl0:amd64 (0.5.1-1), libidn11:amd64 (1.29-1+deb8u2), libgmp10:amd64 (6.0.0+dfsg-6), wget:amd64 (1.16-1+deb8u4), libhogweed2:amd64 (2.7.1-5+deb8u2), libp11-kit0:amd64 (0.20.7-1), ca-certificates:amd64 (20141019+deb8u3), libnettle4:amd64 (2.7.1-5+deb8u2), openssl:amd64 (1.0.1t-1+deb8u7), libtasn1-6:amd64 (4.2-3+deb8u3), libffi6:amd64 (3.1-2+deb8u1)
+End-Date: 2018-02-15  07:50:59
+
+Start-Date: 2018-02-15  07:51:11
+Commandline: apt-get install -y wget gcc libc6-dev make --no-install-recommends
+Install: libisl10:amd64 (0.12.2-2, automatic), libasan1:amd64 (4.9.2-10, automatic), libquadmath0:amd64 (4.9.2-10, automatic), libmpc3:amd64 (1.0.2-1, automatic), make:amd64 (4.0-8.1), libubsan0:amd64 (4.9.2-10, automatic), libgnutls-deb0-28:amd64 (3.3.8-6+deb8u7, automatic), cpp-4.9:amd64 (4.9.2-10, automatic), libgomp1:amd64 (4.9.2-10, automatic), libicu52:amd64 (52.1-8+deb8u6, automatic), libtsan0:amd64 (4.9.2-10, automatic), libcilkrts5:amd64 (4.9.2-10, automatic), libpsl0:amd64 (0.5.1-1, automatic), libc-dev-bin:amd64 (2.19-18+deb8u10, automatic), libidn11:amd64 (1.29-1+deb8u2, automatic), libatomic1:amd64 (4.9.2-10, automatic), libmpfr4:amd64 (3.1.2-2, automatic), binutils:amd64 (2.25-5+deb8u1, automatic), gcc:amd64 (4.9.2-2), libgmp10:amd64 (6.0.0+dfsg-6, automatic), wget:amd64 (1.16-1+deb8u4), libhogweed2:amd64 (2.7.1-5+deb8u2, automatic), cpp:amd64 (4.9.2-2, automatic), gcc-4.9:amd64 (4.9.2-10, automatic), libp11-kit0:amd64 (0.20.7-1, automatic), libcloog-isl4:amd64 (0.18.2-1+b2, automatic), libnettle4:amd64 (2.7.1-5+deb8u2, automatic), libgcc-4.9-dev:amd64 (4.9.2-10, automatic), linux-libc-dev:amd64 (3.16.51-3+deb8u1, automatic), liblsan0:amd64 (4.9.2-10, automatic), libtasn1-6:amd64 (4.2-3+deb8u3, automatic), libitm1:amd64 (4.9.2-10, automatic), libc6-dev:amd64 (2.19-18+deb8u10), libffi6:amd64 (3.1-2+deb8u1, automatic)
+End-Date: 2018-02-15  07:51:16
+
+Start-Date: 2018-02-15  07:51:37
+Commandline: apt-get purge -y --auto-remove wget gcc libc6-dev make
+Purge: libisl10:amd64 (0.12.2-2), libasan1:amd64 (4.9.2-10), libquadmath0:amd64 (4.9.2-10), libmpc3:amd64 (1.0.2-1), make:amd64 (4.0-8.1), libubsan0:amd64 (4.9.2-10), libgnutls-deb0-28:amd64 (3.3.8-6+deb8u7), cpp-4.9:amd64 (4.9.2-10), libgomp1:amd64 (4.9.2-10), libicu52:amd64 (52.1-8+deb8u6), libtsan0:amd64 (4.9.2-10), libcilkrts5:amd64 (4.9.2-10), libpsl0:amd64 (0.5.1-1), libc-dev-bin:amd64 (2.19-18+deb8u10), libidn11:amd64 (1.29-1+deb8u2), libatomic1:amd64 (4.9.2-10), libmpfr4:amd64 (3.1.2-2), binutils:amd64 (2.25-5+deb8u1), gcc:amd64 (4.9.2-2), libgmp10:amd64 (6.0.0+dfsg-6), wget:amd64 (1.16-1+deb8u4), libhogweed2:amd64 (2.7.1-5+deb8u2), cpp:amd64 (4.9.2-2), gcc-4.9:amd64 (4.9.2-10), libp11-kit0:amd64 (0.20.7-1), libcloog-isl4:amd64 (0.18.2-1+b2), libnettle4:amd64 (2.7.1-5+deb8u2), libgcc-4.9-dev:amd64 (4.9.2-10), linux-libc-dev:amd64 (3.16.51-3+deb8u1), liblsan0:amd64 (4.9.2-10), libtasn1-6:amd64 (4.2-3+deb8u3), libitm1:amd64 (4.9.2-10), libc6-dev:amd64 (2.19-18+deb8u10), libffi6:amd64 (3.1-2+deb8u1)
+End-Date: 2018-02-15  07:51:39
